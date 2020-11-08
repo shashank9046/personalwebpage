@@ -20,19 +20,18 @@ function create(e) {
     newLi.innerHTML = todoInput.value;
     if (newLi.innerHTML === "") {
         alert("Input cannot be blank");
-    }
-    else {
+    } else {
         newDiv.appendChild(newLi);
 
         var checkbtn = document.createElement("button");
         checkbtn.classList.add("check-btn");
         checkbtn.innerHTML = '<i class = "fa fa-check"></i>';
-        newDiv.appendChild(checkbtn); 
+        newDiv.appendChild(checkbtn);
 
         var deletebtn = document.createElement("button");
         deletebtn.classList.add("delete-btn");
         deletebtn.innerHTML = '<i class = "fa fa-trash"></i>';
-        newDiv.appendChild(deletebtn); 
+        newDiv.appendChild(deletebtn);
 
         todoList.appendChild(newDiv);
         todoInput.value = "";
