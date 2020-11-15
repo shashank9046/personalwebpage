@@ -37,18 +37,18 @@ function setGreeting() {
     let today = new Date(); // returns today's date
     let hour = today.getHours();
     if (hour < 12) {
-        document.body.style.backgroundImage = "url('../img/morning.jpg')";
+        document.body.style.backgroundImage = "url('../images/morning.png')";
         greeting.innerHTML = "Good Morning";
         // document.querySelector('h1').style.color = "black";
         // document.querySelector('h2').style.color = "black";
     } else if (hour < 18) {
-        document.body.style.backgroundImage = "url('../img/afternoon.jpg')";
+        document.body.style.backgroundImage = "url('../images/Noon.jpg')";
         greeting.innerHTML = "Good Afternoon";
         // document.body.style.color = "white";
         // document.querySelector('h1').style.color = "black";
         // document.querySelector('h2').style.color = "black";
     } else {
-        document.body.style.backgroundImage = "url('../img/night.jpg')";
+        document.body.style.backgroundImage = "url('../images/night.png')";
         greeting.innerHTML = "Good Evening";
     }
 }
