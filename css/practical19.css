@@ -6,7 +6,7 @@
 }
 
 body {
-    background-color: lightgray;
+    background-color: rgb(13, 89, 119);
     height: 100vh;
     font-family: "Open Sans", sans-serif;
     display: flex;
