@@ -23,7 +23,8 @@ body {
 
 .header {
     background-color: #f7f7f7;
-    border-bottom: rgb(112, 255, 131) 2px solid;
+    border-bottom: rgb(14, 87, 121);
+    2px solid;
 }
 
 .header h2 {
@@ -72,7 +73,7 @@ body {
 .form button {
     display: flex;
     width: 100%;
-    background-color: rgb(112, 255, 131);
+    background-color: rgb(14, 87, 121);
     color: black;
     padding: 10px;
     outline: none;
@@ -83,12 +84,12 @@ body {
 }
 
 .form-control.success input {
-    border-color: rgb(112, 255, 131);
+    border-color: rgb(14, 87, 121);
 }
 
 .form-control.success .fa-check-circle {
     visibility: visible;
-    color: rgb(112, 255, 131);
+    color: rgb(14, 87, 121);
 }
 
 .form-control.error input {
